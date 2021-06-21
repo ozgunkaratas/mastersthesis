@@ -7,7 +7,7 @@ Download the StreamRecorderApp as a complete folder to your directory and deploy
 After you do your experiment with the HL, use the regular utility scripts that help to download the contents from the Hololens (see HLs repository for further info). Use the process_all.py script to process the regular StreamRecorderApp results. In order to process the IMU readings, run the shell script in your directory or copy the .tar IMU files to a different directory and run the shell here. this will give the merged accel.txt, gyro.txt and mag.txt files inside individual IMU folders. these raw files are now ready to be supplied to the framework.
 
 
-Running the framework is straightforward, copy the contents of src to a directory, and find a set of experiment raw data that you want to analyze and copy the raw data to your directory. execute main.py.
+Running the framework is straightforward, copy the contents of src to a directory, and find a set of experiment raw data that you want to analyze and copy the raw data to your directory. execute main.py. a prompt will show up asking you if all files are correctly placed in the directory, follow the instructions.
 
 Capturing data from the Xsens requires low-level drivers which can be found here: https://github.com/ethz-asl/ethzasl_xsens_driver. Further instructions are presented to guide you to install and configure the device on your ubuntu computer. works on 18.04, probably wont work on 20.04.
 
