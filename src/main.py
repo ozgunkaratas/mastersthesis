@@ -67,9 +67,9 @@ if __name__ == '__main__':
 
 
 ###################################### CREATE CAMERA TIMESTAMPS   
-    #UNCOMMENT THIS IF YOU WANT TO CREATE HL IMAGE TIMESTAMPS FROM SCRATCH
-    #NOT NECESSARY BECAUSE I ALREADY CREATED THESE AND THE RAW IMAGES ARE TOO BIG TO 
-    #UPLOAD TO THE REPO
+    #DONT UNCOMMENT THIS. POST-PROCESSED FILES ARE ALREADY PRESENT WITH SRC SUPPLIED TO THE UNIVERSITY.
+    #I ALREADY CREATED THESE AND THE RAW IMAGES ARE TOO BIG TO 
+    #UPLOAD TO THE GITHUB REPO
     #create camfile    
     #timestampReader.createCamFile()
 ##################################################################################################################
