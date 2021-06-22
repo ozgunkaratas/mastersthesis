@@ -12,6 +12,6 @@ Running the framework is straightforward, copy the contents of src to a director
 Capturing data from the Xsens requires low-level drivers which can be found here: https://github.com/ethz-asl/ethzasl_xsens_driver. Further instructions are presented to guide you to install and configure the device on your ubuntu computer. works on 18.04, probably wont work on 20.04.
 
 
-Instructions for installing kalibr on your computer can be found under: https://github.com/ethz-asl/kalibr/wiki Kalibr can be installed as binary as well but i have no experience with that, just build it on your ROS distro like a normal software package. Kalibr only uses rosrun for exection, apart from that, its has no connections with ROS, ROS nodes, ROS topics etc.
+Instructions for installing kalibr on your computer can be found under: https://github.com/ethz-asl/kalibr/wiki Kalibr can be installed as binary as well but i have no experience with that, just build it on your ROS distro like a normal software package. Kalibr only uses rosrun for exection, apart from that, its has no connections with ROS, ROS nodes, ROS topics etc. I recommend you build my forked repo because it will also print out the trajectories and ego motion of the camera and the xsens.
 
 You cant create bags nor merge them, although this functionality is built into the framework, because raw data is not present due to its massive size. 
