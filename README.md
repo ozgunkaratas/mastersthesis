@@ -14,4 +14,4 @@ Capturing data from the Xsens requires low-level drivers which can be found here
 
 Instructions for installing kalibr on your computer can be found under: https://github.com/ethz-asl/kalibr/wiki Kalibr can be installed as binary as well but i have no experience with that, just build it on your ROS distro like a normal software package. Kalibr only uses rosrun for exection, apart from that, its has no connections with ROS, ROS nodes, ROS topics etc. I recommend you build my forked repo because it will also print out the trajectories and ego motion of the camera and the xsens.
 
-You cant create bags nor merge them, although this functionality is built into the framework, because raw data is not present due to its massive size. 
+You cant create bags nor merge them, although this functionality is built into the framework, because raw data is not present in the repo due to its massive size. 
